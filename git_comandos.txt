@@ -1,0 +1,23 @@
+estados de un archivo
+untracked
+tracked
+
+
+	git init
+inicializa y lo convierte en un directorio git
+
+todo lo que ponemos aca se va a seguir
+
+git config user.name "walterm"
+git config user.email "mir.walter@gmail.com"
+
+si queremos que sea para todos los repositorios: git config 	--global user.name "walterm"
+
+git status
+estatus del repositorio
+
+git add . 
+agrega todo de lo contrario hay que decirle cual es el archivo que se quiere subir
+
+
+
