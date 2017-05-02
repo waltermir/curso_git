@@ -62,8 +62,33 @@ en el archivo poner
 #para comentarios dentro de .gitignore 
 este archivo hay que agregarlo con git add .gitignore
 
-
 head -> ultimo commit de la rama
+
+git diff
+git diff 2a03333
+nos va a decir las diferencia con el reposiorio actual y el que le pasamos 2a...
+
+gitk se puede ver de forma grafica.
+
+como cambiamos el texto del commit q n nos gusta
+git commit --amend tambien se usa si queremos agregar un archivo lo que permite es editar el ùltimo commit
+
+si pusimos algo en el staging para sacarlo 
+git reset HEAD test.txt lo vuelve a poner en el formato modified.
+
+si tengo un archivo modificado y lo quiero volver como estaba antes:
+git checkout -- test.txt
+
+para volver atras todo el repositorio al ultimo snapshot
+git reset HEAD --hard
+
+el ultimo commit que hicimos fuen un error como lo vuelvo atras
+git reset HEAD^ --hard	
+
+
+
+
+
 
 
 
