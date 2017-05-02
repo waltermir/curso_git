@@ -1,6 +1,9 @@
 estados de un archivo
 untracked
 tracked con el add cambia a tracket y preparado para commit 
+modified una vez que se modifica hay q hacer un add para que lo agregue a staged 
+staged todo lo que esta listo para el snapshot
+snapshot
 
 
 	git init
@@ -22,6 +25,47 @@ agrega todo de lo contrario hay que decirle cual es el archivo que se quiere sub
 git commit -m "mensaje" 
 ss
 cuando modificamos un archivo git nos lo muestra pero si hacemos commit no lo sube. para que lo suba hay que hacer un git add
+
+
+git log 
+git log -p muestra que cambio
+git log -2 para ver las dos ultimas
+git log --oneline Te muestra todos los commit en una sola linea
+git log --graph
+git log --since=2.days te muestra los dos ultimos dias
+git log --since = "2014-01-01" 
+git log --after = "2014-01-01" 
+git log --until  = 
+git log --before = 
+git log author= "walter"
+se pueden convinar
+git help log
+como ver el estado del proyecto
+git checkout permite cambiar de rama para revisar algo
+git checkout ee18654
+luego se puede hacer un branch de ese checkout -- para irnos atras en el tiempo.
+ojo porque cambia el head
+git checkout master para volver
+
+para renombrar
+git mv foo.txt bar.txt queda listo para el snapshop
+para borrar
+git rm bar.txt queda listo para el snapshop
+
+git ignore
+archivo para que git ignore ciertos archivos
+
+crear archivo .gitignore
+en el archivo poner
+*.swp toso seran ignorados
+.txt todos los txts
+#para comentarios dentro de .gitignore 
+este archivo hay que agregarlo con git add .gitignore
+
+
+head -> ultimo commit de la rama
+
+
 
 
 
