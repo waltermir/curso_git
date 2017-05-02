@@ -1,6 +1,6 @@
 estados de un archivo
 untracked
-tracked
+tracked con el add cambia a tracket y preparado para commit 
 
 
 	git init
@@ -18,6 +18,9 @@ estatus del repositorio
 
 git add . 
 agrega todo de lo contrario hay que decirle cual es el archivo que se quiere subir
+
+git commit -m "mensaje" 
+ss
 
 
 
