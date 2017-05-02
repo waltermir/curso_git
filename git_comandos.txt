@@ -85,6 +85,22 @@ git reset HEAD --hard
 el ultimo commit que hicimos fuen un error como lo vuelvo atras
 git reset HEAD^ --hard	
 
+remoto
+--------
+
+git clone url directorio
+
+git remote -v nos muestra el origin que es el default
+git remote show origin
+ un repositorio puede tener multiples remotos.
+
+
+Si quiero subir a un repositorio nuevo
+
+git remote add origin https://github.com/waltermir/curso_git.git
+git push -u origin master
+
+
 
 
 
