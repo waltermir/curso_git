@@ -21,6 +21,7 @@ agrega todo de lo contrario hay que decirle cual es el archivo que se quiere sub
 
 git commit -m "mensaje" 
 ss
+cuando modificamos un archivo git nos lo muestra pero si hacemos commit no lo sube. para que lo suba hay que hacer un git add
 
 
 
