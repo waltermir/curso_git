@@ -101,7 +101,68 @@ git remote add origin https://github.com/waltermir/curso_git.git
 git push -u origin master
 
 
+git remote -v para ver que remoto estoy usando
 
+git remote rename origin origen
+
+si lo quiero borrar
+
+git remote rm origen
+
+git fetch te permite traer los cambios 	que hay en un repositorio
+git pull te trae los datos y los mergea con tu repositorio
+git push enviar cambios al repositorio remoto
+
+para clonar un repositorio en la misma pc
+git clone /users/jorge/testgit/.git testgit2 
+
+
+git config -l
+si quiero hacer como que soy otra persona
+git config user.name = "juan perez"
+
+si se modifica el repositorio remoto si quiero traer los cambios sib modificar mis archivos
+git fetch origin master
+
+para traer los datos modificados
+git merge origin master
+
+git pull hace primero un git fetch y luego un git merge.
+
+git pull origin master
+
+git puh empujar datos
+
+------------------
+--RAMIFICACIONES--
+------------------
+
+master es la rama principal puede ser la que esta en prod
+puede haber ramos de develpment o test
+
+git branch prueba
+git branch para ver las pruebas
+para cambiarnos a la rama pruebas hacer git checkout
+git checkout prueba
+
+incorporar cambios en la rama master
+git checkout master
+git merge prueba
+
+Para borrar una rama 
+tengo que estar fuera de la rama
+git branch -d prueba
+
+herramientas
+
+git stash por si quiero guardar todo el trabajo que hice en un temporal
+git stash list  para ver todos los stash
+	
+git stash apply te aplica el ultimo stash
+sino le tenemos que indicar que stash queremos recuperar
+
+git cherry-pick para comitear un snapshot especifico
+git cherry-pick 172fac3
 
 
 
